@@ -1,0 +1,20 @@
+.container {
+  max-width: 380px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0px 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 16px 16px 0 0;
+}
+
+.container > header {
+  height: 70px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 70px;
+}
+
+.container > main {
+  padding-top: 16px;
+}

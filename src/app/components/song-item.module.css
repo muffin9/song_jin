@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  gap: 15px;
+  padding: 20px 10px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  color: black;
+  text-decoration: none;
+}
+
+.box img {
+  width: 80px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.title_with_featured {
+  word-break: keep-all;
+}
+
+.artist_names {
+  color: gray;
+}
+
+.item_footer {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .lyrics_button {
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 69, 0);
+  color: white;
+  cursor: pointer;
+}

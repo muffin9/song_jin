@@ -4,7 +4,6 @@ import Modal from "./Modal";
 interface WithModalProps {
     text: string;
   }
-
   
 export function withModal<P extends WithModalProps>(Component: React.ComponentType<P & { openModal: () => void }>) {
   return function WrappedComponent(props: P) {
